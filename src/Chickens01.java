@@ -4,6 +4,12 @@ public class Chickens01 {
      int totalEggs = 0;
      int eggsPerChicken = 5;
      int chickenCount = 3;		 
+     //Monday
+     totalEggs = eggsPerChicken * chickenCount;
+    		 
+     //Tuesday
+     
+     //Wednessday
      
      System.out.println(totalEggs);
     }   
