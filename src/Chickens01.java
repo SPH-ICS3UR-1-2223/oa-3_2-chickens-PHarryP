@@ -8,9 +8,11 @@ public class Chickens01 {
      totalEggs = eggsPerChicken * chickenCount;
     		 
      //Tuesday
-     
+     chickenCount++;
+     totalEggs = eggsPerChicken * chickenCount;
      //Wednessday
-     
+     chickenCount=chickenCount/2;
+     totalEggs = eggsPerChicken * chickenCount;
      System.out.println(totalEggs);
     }   
 }
